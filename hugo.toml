@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Peter Arsenault Portfolio'
+title = '<My Name> Portfolio'
 theme = "hugo-coder"
 
 defaultContentLanguage = "en"
@@ -8,12 +8,12 @@ paginate = 6
 enableEmoji = true 
 
 [params]
-author = "Peter Arsenault"
+author = "Jack Smith"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Peter Arsenault's personal website"
+description = "<My name>'s personal website"
 keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Technical Writer"]
-avatarURL = "images/avatar.jpg"
+info = ["Full Stack DevOps Engineer", "Data Wrangler"]
+avatarURL = "images/avatar.png"
 
 
 [markup.highlight]
@@ -22,6 +22,30 @@ noClasses = false
 [taxonomies]
 series = "series"
 tag = "tags"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/johndoe/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-instagram fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/johndoe/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa-brands fa-twitter fa-2x"
+weight = 3
+url = "https://twitter.com/johndoe/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/johndoe/"
 
 [languages.en]
 languageName = ":uk:"
