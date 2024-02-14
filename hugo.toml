@@ -5,7 +5,7 @@ theme = "hugo-coder"
 
 defaultContentLanguage = "en"
 paginate = 6
-enableEmoji = true
+enableEmoji = true 
 
 [params]
 author = "Peter Arsenault"
